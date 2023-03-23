@@ -1,0 +1,206 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Dnine - Projects
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')
+    link(rel='stylesheet', href='../static/webtemplate.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='../static/projects.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=League+Gothic&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    style.
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')
+  body
+    nav.navbar
+      .reflector1
+      .reflector2
+      .logo
+        img(src='../static/images/D9logo.png', alt='Dnine')
+      .navigation
+        ul.ulist
+          li.list
+            a(href='/')
+              span.icon
+                i.fa-solid.fa-house
+              span.text Home
+          li.list
+            a(href='/about')
+              span.icon
+                i.fa-solid.fa-user
+              span.text About
+          li.list.active
+            a(href='/projects')
+              span.icon
+                i.fa-solid.fa-puzzle-piece
+              span.text Projects
+          li.list
+            a(href='/contact')
+              span.icon
+                i.fa-solid.fa-envelope
+              span.text Contact
+          li.list
+            a(href='/chat')
+              span.icon
+                i.fa-solid.fa-comment
+              span.text Chat
+          .indicator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      .search
+        label(for='search')
+          i#sicon.fa-solid.fa-magnifying-glass(onclick='searchclick()')
+        input#search(type='text', name='search')
+    .load-page
+      .left-l
+        .sub-ti Project will be updated
+        .heading-ti My personal Projects which improve my coding Experience!
+        .h-para
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo itaque ipsum sunt quae quam
+          | molestias, magni exercitationem neque optio di
+        .scrollbtn
+          a(href='#eentrence') Scroll down
+      .right-l
+        img(src='../static/images/bg1.png', alt='')
+    #eentrence.entrence
+      h1 &amp; Here They Are!
+      h5
+        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut nihil, doloremque aut vel eaque accusantium
+        | nulla dolores dolorum culpa est.
+    .project
+      .proimg
+        img.p-img1(src='../static/images/home page SS.png', alt='')
+        img.main-img(src='../static/images/home page SS.png', alt='')
+        img.p-img(src='../static/images/home page SS.png', alt='')
+      .procontent
+        .p-head Project one
+        .p-subinfo
+          | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit possimus corporis
+          | quae tenetur? At enim, neque voluptatibus quis repellendus modi delectus quas blanditiis. Esse, sapiente
+          | repreh, antium.
+        .p-subhead Sub Project one
+        .p-info
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, et facere asperiores
+          | laboriosam animi rem sit eligendi temporibus nobis recusandae. Veritatis maxime reprehenderit, sint unde
+          | repellendus velit quae eum, dolor blanditiis odio minima porro eligendi rerum quaerat id architecto
+          | dignissimos aliquam, molestiae eveniet distinctio tempore! Voluptates neque nam eius dolorem vel atque
+          | hic inventore ab sit nisi illum modi archiue exercitationem ducimus soluta expedita? Omnis obcaecati
+          | numquam mollitia cum optio asperiores, impedit dolorem! Impedit amet fugit aut, magni ratione illum
+          | autem illo distinctio ullam cumque quidem sit nemo qui tenetur atque eaque alias earum obcaecati
+          | asperiores! 
+          br
+          |Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur! Quia, consequuntur
+          |omnis. Maiores, incidunt perferendis assumenda eius temporibus neque?
+    .project2
+      .proimg
+        img.p-img1(src='../static/images/home page SS.png', alt='')
+        img.main-img(src='../static/images/home page SS.png', alt='')
+        img.p-img(src='../static/images/home page SS.png', alt='')
+      .procontent2
+        .p-head Project one
+        .p-subinfo
+          | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit possimus corporis
+          | quae tenetur? At enim, neque voluptatibus quis repellendus modi delectus quas blanditiis. Esse, sapiente
+          | repreh, antium.
+        .p-subhead Sub Project one
+        .p-info
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, et facere asperiores
+          | laboriosam animi rem sit eligendi temporibus nobis recusandae. Veritatis maxime reprehenderit, sint unde
+          | repellendus velit quae eum, dolor blanditiis odio minima porro eligendi rerum quaerat id architecto
+          | dignissimos aliquam, molestiae eveniet distinctio tempore! Voluptates neque nam eius dolorem vel atque
+          | hic inventore ab sit nisi illum modi archiue exercitationem ducimus soluta expedita? Omnis obcaecati
+          | numquam mollitia cum optio asperiores, impedit dolorem! Impedit amet fugit aut, magni ratione illum
+          | autem illo distinctio ullam cumque quidem sit nemo qui tenetur atque eaque alias earum obcaecati
+          | asperiores! 
+          br
+          |Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur! Quia, consequuntur
+          |omnis. Maiores, incidunt perferendis assumenda eius temporibus neque?
+    .project
+      .proimg
+        img.p-img1(src='../static/images/home page SS.png', alt='')
+        img.main-img(src='../static/images/home page SS.png', alt='')
+        img.p-img(src='../static/images/home page SS.png', alt='')
+      .procontent
+        .p-head Project one
+        .p-subinfo
+          | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit possimus corporis
+          | quae tenetur? At enim, neque voluptatibus quis repellendus modi delectus quas blanditiis. Esse, sapiente
+          | repreh, antium.
+        .p-subhead Sub Project one
+        .p-info
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, et facere asperiores
+          | laboriosam animi rem sit eligendi temporibus nobis recusandae. Veritatis maxime reprehenderit, sint unde
+          | repellendus velit quae eum, dolor blanditiis odio minima porro eligendi rerum quaerat id architecto
+          | dignissimos aliquam, molestiae eveniet distinctio tempore! Voluptates neque nam eius dolorem vel atque
+          | hic inventore ab sit nisi illum modi archiue exercitationem ducimus soluta expedita? Omnis obcaecati
+          | numquam mollitia cum optio asperiores, impedit dolorem! Impedit amet fugit aut, magni ratione illum
+          | autem illo distinctio ullam cumque quidem sit nemo qui tenetur atque eaque alias earum obcaecati
+          | asperiores! 
+          br
+          |Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur! Quia, consequuntur
+          |omnis. Maiores, incidunt perferendis assumenda eius temporibus neque?
+    .project2
+      .proimg
+        img.p-img1(src='../static/images/home page SS.png', alt='')
+        img.main-img(src='../static/images/home page SS.png', alt='')
+        img.p-img(src='../static/images/home page SS.png', alt='')
+      .procontent2
+        .p-head Project one
+        .p-subinfo
+          | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit possimus corporis
+          | quae tenetur? At enim, neque voluptatibus quis repellendus modi delectus quas blanditiis. Esse, sapiente
+          | repreh, antium.
+        .p-subhead Sub Project one
+        .p-info
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, et facere asperiores
+          | laboriosam animi rem sit eligendi temporibus nobis recusandae. Veritatis maxime reprehenderit, sint unde
+          | repellendus velit quae eum, dolor blanditiis odio minima porro eligendi rerum quaerat id architecto
+          | dignissimos aliquam, molestiae eveniet distinctio tempore! Voluptates neque nam eius dolorem vel atque
+          | hic inventore ab sit nisi illum modi archiue exercitationem ducimus soluta expedita? Omnis obcaecati
+          | numquam mollitia cum optio asperiores, impedit dolorem! Impedit amet fugit aut, magni ratione illum
+          | autem illo distinctio ullam cumque quidem sit nemo qui tenetur atque eaque alias earum obcaecati
+          | asperiores! 
+          br
+          |Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur! Quia, consequuntur
+          |omnis. Maiores, incidunt perferendis assumenda eius temporibus neque?
+    .project.new
+      .proimg
+        i.fa-solid.fa-plus
+      .procontent
+        .p-head New Project
+        .p-subinfo New project will be added here soon after completion.
+    footer.footer
+      .upper-footer
+        .page-link
+          li
+            a(href='/') Home
+          li
+            a(href='/about') About
+          li
+            a(href='/projects') Project
+          li
+            a(href='/contact') Contact
+          li
+            a(href='/chat') Chat
+        .social-link
+          a(href='https://www.instagram.com/thakare_darshan09/', target='_blank')
+            i.fa-brands.fa-instagram
+          a(href='https://github.com/Drash09', target='_blank')
+            i.fa-brands.fa-github
+          a(href='https://www.youtube.com/channel/UCe7kNMnNHsF873YbAljRKlw', target='_blank')
+            i.fa-brands.fa-youtube
+      .lower-footer
+        img#footerimg(src='../static/images/D9-logo.png', alt='D9.com')
+        |  &nbsp;| Dnine&nbsp;
+        i.fa-regular.fa-copyright
+        | &nbsp;2022. All Rights Reserved

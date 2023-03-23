@@ -1,0 +1,471 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Dnine - My Own Web World
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css')
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')
+    link(rel='stylesheet', href='../static/webtemplate.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=League+Gothic&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Kalam&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='../static/home.css')
+  body
+    nav.navbar
+      .reflector1
+      .reflector2
+      .logo
+        img(src='../static/images/D9logo.png', alt='Dnine')
+      .navigation
+        ul.ulist
+          li.list.active
+            a(href='/')
+              span.icon
+                i.fa-solid.fa-house
+              span.text Home
+          li.list
+            a(href='/about')
+              span.icon
+                i.fa-solid.fa-user
+              span.text About
+          li.list
+            a(href='/projects')
+              span.icon
+                i.fa-solid.fa-puzzle-piece
+              span.text Projects
+          li.list
+            a(href='/contact')
+              span.icon
+                i.fa-solid.fa-envelope
+              span.text Contact
+          li.list
+            a(href='/chat')
+              span.icon
+                i.fa-solid.fa-comment
+              span.text Chat
+          .indicator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      .search
+        label(for='search')
+          i#sicon.fa-solid.fa-magnifying-glass(onclick='searchclick()')
+        input#search(type='text', name='search')
+    .content
+      .explorer
+        .rightside
+          .element.elementa Passion &#x1F609;
+          .element2.element.elementb Developer &#x1F453;&#x1F393;
+          .element.elementc
+            a(href='https://www.instagram.com/thakare_darshan09/')
+              i.fa-brands.fa-instagram
+        .logoimg
+          .roundimg
+            img(src='../static/images/pngegg.png', alt='D9')
+        .leftside
+          .element.elementd &#x1F44B; Hii ,There!
+          .element2.element.elemente
+            | coding..&quot;
+            span(style='color:grey') Hello World
+            | &quot;
+          .element.elementf
+            div send feedback
+            a(href='#', target='_blank') Email me...your opinion about this website
+      .infotab
+        h3#nheading
+          strong HII THERE, I&apos;M DARSH..
+        h1#iheading A programmer student... with passion to Code
+        span#ipara
+          | i am a diploma student and this is my first web project. i started enjoying
+          | coding!!..
+    .maincontent
+      .boxcon
+        .box
+          h3 Web Design
+          p
+            | I have been coding for last few months in Web Development and descovering more about it.
+        .box
+          h3 Coding
+          p I am learning to code and explore the code codding community &amp; it&apos;s my Passion
+        .box
+          h3 App development
+          p I will start App development soon it will definetly improve my coding experience
+      .boxinfo
+        | If you are looking for someone who will help you to build your digital web presence than congratulations!
+    hr
+    .animebox
+      .abox(onmousemove='over()')
+        .animimg.imgr
+          img(src='../static/images/img1.png', alt=':)')
+        .animtext.tright
+          p
+            | text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque, natus ex ipsa ipsam dicta
+            | doloremque, quod nam quis ea, quidem ullam adipisci praesentium!
+      .abox
+        .animtext.tleft
+          p
+            | text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque, natus ex ipsa ipsam dicta
+            | doloremque, quod nam quis ea, quidem ullam adipisci praesentium!
+        .animimg
+          img(src='../static/images/img2.png', alt=':)')
+      .abox
+        .animimg
+          img(src='../static/images/img3.png', alt=':)')
+        .animtext.tright
+          p
+            | text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque, natus ex ipsa ipsam dicta
+            | doloremque, quod nam quis ea, quidem ullam adipisci praesentium!
+      .abox
+        .animtext.tleft
+          p
+            | text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque, natus ex ipsa ipsam dicta
+            | doloremque, quod nam quis ea, quidem ullam adipisci praesentium!
+        .animimg.imgr
+          img(src='../static/images/img4.png', alt=':)')
+      .moreex
+        .btn
+          a(href='/about') More About Me
+    hr
+    .proheading.heading1
+      h1 DEVELOPER&apos;S
+      p#p
+        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, fugiat! sdgi isji rtuasr ecrc vr. Lorem
+        | ipsum
+        | dolor sit amet, consectetur adipisicing elit. Deserunt, eligendi. dkowjd ed rem ipsum dolor sit amet
+        | consectetur adipisicing elit.
+    .projectmain
+      .slider.swiper.mySwiper
+        .conent.swiper-wrapper
+          .card.swiper-slide
+            .card-content
+              .image
+                img(src='../static/images/id 3.png', alt='Dnine')
+              .media-icons
+                i.fa-solid.fa-file-lines
+                i.fa-brands.fa-github
+                i.fa-brands.fa-youtube
+              .name-project
+                span.name Manish Roy
+                span.project Android Developer, Coder
+              .rating
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                // <i class="fa-solid fa-star"></i>
+                i.fa-solid.fa-star
+                // <i class="fa-regular fa-star"></i>
+                i.fa-regular.fa-star
+                i.fa-regular.fa-star
+              .button
+                button.aboutme About me
+                button.inspect Inspect
+          .card.swiper-slide
+            .card-content
+              .image
+                img(src='../static/images/id 1.png', alt='Dnine')
+              .media-icons
+                i.fa-solid.fa-file-lines
+                i.fa-brands.fa-github
+                i.fa-brands.fa-youtube
+              .name-project
+                span.name Darshan Thakare
+                span.project
+                  | Web Developer, Programmer,
+                  br
+                  |  Andriod Developer, Coder
+              .rating
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                // <i class="fa-regular fa-star"></i>
+                // <i class="fa-regular fa-star"></i>
+              .button
+                button.aboutme About me
+                button.inspect Inspect
+          .card.swiper-slide
+            .card-content
+              .image
+                img(src='../static/images/id 2.png', alt='Dnine')
+              .media-icons
+                i.fa-solid.fa-file-lines
+                i.fa-brands.fa-github
+                i.fa-brands.fa-youtube
+              .name-project
+                span.name Hritik Roshan
+                span.project Web Developer, Programmer
+              .rating
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                // <i class="fa-regular fa-star"></i>
+                i.fa-solid.fa-star
+                i.fa-regular.fa-star
+              .button
+                button.aboutme About me
+                button.inspect Inspect
+          .card.swiper-slide
+            .card-content
+              .image
+                img(src='../static/images/id 2.png', alt='Dnine')
+              .media-icons
+                i.fa-solid.fa-file-lines
+                i.fa-brands.fa-github
+                i.fa-brands.fa-youtube
+              .name-project
+                span.name New Developer
+                span.project web developpe
+              .rating
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                // <i class="fa-regular fa-star"></i>
+                i.fa-regular.fa-star
+              .button
+                button.aboutme About me
+                button.inspect Inspect
+          .card.swiper-slide
+            .card-content
+              .image
+                img(src='../static/images/id 3.png', alt='Dnine')
+              .media-icons
+                i.fa-solid.fa-file-lines
+                i.fa-brands.fa-github
+                i.fa-brands.fa-youtube
+              .name-project
+                span.name New Developer
+                span.project web developpe
+              .rating
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                // <i class="fa-regular fa-star"></i>
+                i.fa-regular.fa-star
+              .button
+                button.aboutme About me
+                button.inspect Inspect
+          .card.swiper-slide
+            .card-content
+              .image
+                img(src='../static/images/id 1.png', alt='Dnine')
+              .media-icons
+                i.fa-solid.fa-file-lines
+                i.fa-brands.fa-github
+                i.fa-brands.fa-youtube
+              .name-project
+                span.name New Developer
+                span.project web developpe
+              .rating
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-solid.fa-star
+                i.fa-regular.fa-star
+                i.fa-regular.fa-star
+              .button
+                button.aboutme About me
+                button.inspect Inspect
+        .swiper-button-next
+        .swiper-button-prev
+        .swiper-pagination
+      .moreex
+        .btn
+          a(href='/contact') Add Your&apos;s
+    hr
+    .proheading
+      h1 PROJECT&apos;S
+      p
+        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, fugiat! sdgi isji rtuasr ecrc vr. Lorem ipsum
+        | dolor sit amet, consectetur adipisicing elit. Deserunt, eligendi. dkowjd ed rem ipsum dolor sit amet
+        | consectetur adipisicing elit.
+    .pro-ject
+      .pro-
+        h1.pro-heading PROJECT-1
+        .pro-subtitle
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, molestias!
+          | Incidunt in reiciendis hic architecto odio eum, assumenda, facere nulla enim perferendis, voluptatem
+          | illum iusto omnis ipsa voluptates nobis cumque ea doloribus!
+        .pro-maincontent
+          | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis
+          | corporis, itaque et hic possimus temporibus delectus. Sapiente labore blanditiis quas reiciendis
+          | ducimus, itaque vero illum harum quos dolorem veniam! Laborum enim facilis aliquam eligendi vitae nihil
+          | obcaecati ratione quis repudiandae expedita soluta distinctio necessitatibus cumque asperiores dolorem,
+          | possimus quibusdam omnis amet? Sequi sit, doloremque maiores in dicta, sint voluptates laudantium eum
+          | possimus quod dolores reiciendis ipsum vel quo omnis. Ipsam perspiciatis cum dicta accusantium earum.
+          | Architecto doloremque, id incidunt numquam cumque tenetur consectetur aperiam cum voluptatibus ipsum
+          | blanditiis, in voluptatem! Nesciunt praesentium animi possimus adipisci voluptates velit tempora nisi?
+        .pro-bg-faith
+      .pro-
+        h1.pro-heading PROJECT-2
+        .pro-subtitle
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, molestias!
+          | Incidunt in reiciendis hic architecto odio eum, assumenda, facere nulla enim perferendis, voluptatem
+          | illum iusto omnis ipsa voluptates nobis cumque ea doloribus!
+        .pro-maincontent
+          | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis
+          | corporis, itaque et hic possimus temporibus delectus. Sapiente labore blanditiis quas reiciendis
+          | ducimus, itaque vero illum harum quos dolorem veniam! Laborum enim facilis aliquam eligendi vitae nihil
+          | obcaecati ratione quis repudiandae expedita soluta distinctio necessitatibus cumque asperiores dolorem,
+          | possimus quibusdam omnis amet? Sequi sit, doloremque maiores in dicta, sint voluptates laudantium eum
+          | possimus quod dolores reiciendis ipsum vel quo omnis. Ipsam perspiciatis cum dicta accusantium earum.
+          | Architecto doloremque, id incidunt numquam cumque tenetur consectetur aperiam cum voluptatibus ipsum
+          | blanditiis, in voluptatem! Nesciunt praesentium animi possimus adipisci voluptates velit tempora nisi?
+        // <img src="./images/chatss.png" alt=">>>" class="pro-bg-faith">
+        .pro-bg-faith
+      .pro-
+        h1.pro-heading PROJECT-3
+        .pro-subtitle
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, molestias!
+          | Incidunt in reiciendis hic architecto odio eum, assumenda, facere nulla enim perferendis, voluptatem
+          | illum iusto omnis ipsa voluptates nobis cumque ea doloribus!
+        .pro-maincontent
+          | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis
+          | corporis, itaque et hic possimus temporibus delectus. Sapiente labore blanditiis quas reiciendis
+          | ducimus, itaque vero illum harum quos dolorem veniam! Laborum enim facilis aliquam eligendi vitae nihil
+          | obcaecati ratione quis repudiandae expedita soluta distinctio necessitatibus cumque asperiores dolorem,
+          | possimus quibusdam omnis amet? Sequi sit, doloremque maiores in dicta, sint voluptates laudantium eum
+          | possimus quod dolores reiciendis ipsum vel quo omnis. Ipsam perspiciatis cum dicta accusantium earum.
+          | Architecto doloremque, id incidunt numquam cumque tenetur consectetur aperiam cum voluptatibus ipsum
+          | blanditiis, in voluptatem! Nesciunt praesentium animi possimus adipisci voluptates velit tempora nisi?
+        // <img src="./images/chatss.png" alt=">>>" class="pro-bg-faith">
+        .pro-bg-faith
+      .pro-
+        h1.pro-heading PROJECT-4
+        .pro-subtitle
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, molestias!
+          | Incidunt in reiciendis hic architecto odio eum, assumenda, facere nulla enim perferendis, voluptatem
+          | illum iusto omnis ipsa voluptates nobis cumque ea doloribus!
+        .pro-maincontent
+          | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis
+          | corporis, itaque et hic possimus temporibus delectus. Sapiente labore blanditiis quas reiciendis
+          | ducimus, itaque vero illum harum quos dolorem veniam! Laborum enim facilis aliquam eligendi vitae nihil
+          | obcaecati ratione quis repudiandae expedita soluta distinctio necessitatibus cumque asperiores dolorem,
+          | possimus quibusdam omnis amet? Sequi sit, doloremque maiores in dicta, sint voluptates laudantium eum
+          | possimus quod dolores reiciendis ipsum vel quo omnis. Ipsam perspiciatis cum dicta accusantium earum.
+          | Architecto doloremque, id incidunt numquam cumque tenetur consectetur aperiam cum voluptatibus ipsum
+          | blanditiis, in voluptatem! Nesciunt praesentium animi possimus adipisci voluptates velit tempora nisi?
+        // <img src="./images/chatss.png" alt=">>>" class="pro-bg-faith">
+        .pro-bg-faith
+      .moreex
+        .btn
+          a(href='/projects') Explorer more
+    .contact
+      .formname
+        h1 Send Feedback Now!
+        .mail-link
+          i.fa-solid.fa-paper-plane
+          a(href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent?compose=lqrsljczwbZslNqXnTNFGDgmcjpwBXBPWMgbWTGdtgJsZbBgClqdPrJPNbxPpqrcMMdHkCtFVPBPdTtnK', target='_blank') darshanthakaree09@gmail.com
+        .other-link
+          div
+            a#insta(href='https://www.instagram.com/thakare_darshan09/', target='_blank')
+              i.fa-brands.fa-instagram
+          div
+            a(href='https://www.youtube.com/channel/UCe7kNMnNHsF873YbAljRKlw', target='_blank')
+              i.fa-brands.fa-youtube
+          div
+            a#git(href='https://github.com/Drash09', target='_blank')
+              i.fa-brands.fa-github
+      .mainform
+        h1 Feedback !
+        form#home-form(action='/', method='post')
+          div
+            input#name(type='text', name='Name', placeholder='Enter Your Name')
+          div
+            input#rating(type='number', name='Rating', placeholder='Rating /10')
+          div
+            input#email(type='email', name='Email', placeholder='Enter Your Email')
+          div
+            textarea#feedback(name='Feedback', cols='40', rows='1', placeholder='Your Opinion About This Website')
+          div
+            input#submit(type='submit', value='SUBMIT')
+    .endsec
+      .chatexplorer
+        .ss-imgs
+          .ss-img.ss1
+          .ss-img.ss2
+          .ss-img.ss3
+        .ss-infos
+          h1 CHAT LIVE !.
+          .ss-info
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis nesciunt ipsum, quisquam
+            | officiis fugiat, necessitatibus veritatis voluptatum id, dolores harum aliquid impedit consequuntur
+            | maiores. Earum, et ea nulla id omnis nemo voluptas.
+          h2
+            | Enjoy,
+            br
+            | Communicate,
+            br
+            | Joy,
+            br
+            | explore...
+      .joinbtn
+        .join-btn
+          .btn-j
+            a(href='/chat.html') Join Live Chat !!...
+    footer.footer
+      .upper-footer
+        .page-link
+          li
+            a(href='/') Home
+          li
+            a(href='/about') About
+          li
+            a(href='/projects') Project
+          li
+            a(href='/contact') Contact
+          li
+            a(href='/chat') Chat
+        .social-link
+          a(href='https://www.instagram.com/thakare_darshan09/', target='_blank')
+            i.fa-brands.fa-instagram
+          a(href='https://github.com/Drash09', target='_blank')
+            i.fa-brands.fa-github
+          a(href='https://www.youtube.com/channel/UCe7kNMnNHsF873YbAljRKlw', target='_blank')
+            i.fa-brands.fa-youtube
+      .lower-footer
+        img#footerimg(src='../static/images/D9-logo.png', alt='D9.com')
+        |  &nbsp;| Dnine&nbsp;
+        i.fa-regular.fa-copyright
+        | &nbsp;2022. All Rights Reserved
+    script(src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js')
+    // Initialize Swiper
+    script.
+      var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      },
+      navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+      },
+      });

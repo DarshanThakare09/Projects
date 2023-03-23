@@ -1,0 +1,263 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Dnine - Contact
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')
+    link(rel='stylesheet', href='../static/webtemplate.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='../static/contact.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=League+Gothic&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    style.
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')
+    script(src='../static/contact.js')
+  body
+    nav.navbar
+      .reflector1
+      .reflector2
+      .logo
+        img(src='../static/images/D9logo.png', alt='Dnine')
+      .navigation
+        ul.ulist
+          li.list
+            a(href='/')
+              span.icon
+                i.fa-solid.fa-house
+              span.text Home
+          li.list
+            a(href='/about')
+              span.icon
+                i.fa-solid.fa-user
+              span.text About
+          li.list
+            a(href='/projects')
+              span.icon
+                i.fa-solid.fa-puzzle-piece
+              span.text Projects
+          li.list.active
+            a(href='/contact')
+              span.icon
+                i.fa-solid.fa-envelope
+              span.text Contact
+          li.list
+            a(href='/chat')
+              span.icon
+                i.fa-solid.fa-comment
+              span.text Chat
+          .indicator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      .search
+        label(for='search')
+          i#sicon.fa-solid.fa-magnifying-glass(onclick='searchclick()')
+        input#search(type='text', name='search')
+    .land-page
+      .left-side
+        .head
+          h1 CONTACT ME
+        .sub-p Lorem ipsum dolor sit amet consectur adipisicing.
+        .main-p
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, nostrum iure odit quis
+          | alias hic atque neque saepe amet facere recusandae obcaecati adipisci eum quam iste dicta eaque harum
+          | mollitia. Facere, quo.
+        .btn
+          a(href='#contact') CONTACT
+    #contact.entrence
+      h1#h1 CONTACT ME
+      h5 Have any Questions, I like te hear from you!.. 
+    .main-c
+      .sub-c
+        .h1-c ASK ANY QUE ?
+        .para-c
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi nulla esse dolore
+          | obcaecati consectetur sint eaque, recusandae beatae deserunt? Nostrum recusandae nulla, deleniti dolore
+          | deserunt quidem omnis natus asperiores?
+        btn.btn(type='button', onclick='showframe1()') ASK QUESTIONS
+        .para-cc Scroll down after click for the form
+      .sub-c
+        .h1-c CONTACT
+        .para-c
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi nulla esse dolore
+          | obcaecati consectetur sint eaque, recusandae beatae deserunt? Nostrum recusandae nulla, deleniti dolore
+          | deserunt quidem omnis natus asperiores?
+        btn.btn(onclick='showframe2()') CONTACT
+        .para-cc Scroll down after click for the form
+      .sub-c
+        .h1-c GET IN TOUCH
+        .para-c
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi nulla esse dolore
+          | obcaecati consectetur sint eaque, recusandae beatae deserunt? Nostrum recusandae nulla, deleniti dolore
+          | deserunt quidem omnis natus asperiores?
+        btn.btn(onclick='showframe3()') GET IN TOUCH
+        .para-cc Scroll down after click for the form
+    #que.c-forms
+      .left-form
+        h1 Ask me any Question ?!
+        form#contact-me-form(action='/ask-me', method='post')
+          div
+            input#name(type='text', name='Name', placeholder='Name')
+          div
+            input#email(type='email', name='Email', placeholder='Email')
+          div
+            input#subject(type='text', name='Subject', placeholder='Subject')
+          div
+            textarea#question(name='Question', placeholder='Question', cols='30', rows='10')
+          div
+            input#submit.btnn(type='submit', value='Send Question')
+      .right-form
+        .main-li
+          .rf-head Ask any Que?
+          .rf-subtt
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum eius
+            | aliquid blanditiis nam laboriosam placeat nemo quia soluta atque!
+        .sub-li
+          .li
+            .icon
+              i.fa-solid.fa-location-dot
+            .text
+              h2 Address :
+              |  Sector 23, Sun Colony, Gali No 27
+          .li
+            .icon
+              i.fa-solid.fa-phone
+            .text
+              h2 Phone :
+              |  +912974973792
+          .li
+            .icon
+              i.fa-solid.fa-paper-plane
+            .text
+              h2 Email :
+              |  darshanthakaree09@gmail.com
+          .li
+            .icon
+              i.fa-brands.fa-instagram
+            .text
+              h2 Insta :
+              | thakare_darshan09
+    #con.c-forms
+      .left-form
+        h1 Send me your Query !!
+        form#contact-me-form(action='/contact-me', method='post')
+          div
+            input#name(type='text', name='Name', placeholder='Name')
+          div
+            input#email(type='email', name='Email', placeholder='Email')
+          div
+            input#subject(type='text', name='Subject', placeholder='Subject')
+          div
+            textarea#message(name='Message', placeholder='Message', cols='30', rows='10')
+          div
+            input#submit.btnn(type='submit', value='Send Message')
+      .right-form
+        .main-li
+          .rf-head Contact Me
+          .rf-subtt
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum eius
+            | aliquid blanditiis nam laboriosam placeat nemo quia soluta atque!
+        .sub-li
+          .li
+            .icon
+              i.fa-solid.fa-location-dot
+            .text
+              h2 Address :
+              |  Sector 23, Sun Colony, Gali No 27
+          .li
+            .icon
+              i.fa-solid.fa-phone
+            .text
+              h2 Phone :
+              |  +912974973792
+          .li
+            .icon
+              i.fa-solid.fa-paper-plane
+            .text
+              h2 Email :
+              |  darshanthakaree09@gmail.com
+          .li
+            .icon
+              i.fa-brands.fa-instagram
+            .text
+              h2 Insta :
+              | thakare_darshan09
+    #touch.c-forms
+      .left-form
+        h1 Get in Touch with Me ..
+        form#contact-me-form(action='/getintouchwith-me', method='post')
+          div
+            input#name(type='text', name='Name', placeholder='Name')
+          div
+            input#email(type='email', name='Email', placeholder='Email')
+          div
+            input#subject(type='text', name='Subject', placeholder='Subject')
+          div
+            textarea#message(name='Message', placeholder='Message', cols='30', rows='10')
+          div
+            input#submit.btnn(type='submit', value='Send Message')
+      .right-form
+        .main-li
+          .rf-head Get in Touch
+          .rf-subtt
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum eius
+            | aliquid blanditiis nam laboriosam placeat nemo quia soluta atque!
+        .sub-li
+          .li
+            .icon
+              i.fa-solid.fa-location-dot
+            .text
+              h2 Address :
+              |  Sector 23, Sun Colony, Gali No 27
+          .li
+            .icon
+              i.fa-solid.fa-phone
+            .text
+              h2 Phone :
+              |  +912974973792
+          .li
+            .icon
+              i.fa-solid.fa-paper-plane
+            .text
+              h2 Email :
+              |  darshanthakaree09@gmail.com
+          .li
+            .icon
+              i.fa-brands.fa-instagram
+            .text
+              h2 Insta :
+              | thakare_darshan09
+    footer.footer
+      .upper-footer
+        .page-link
+          li
+            a(href='/') Home
+          li
+            a(href='/about') About
+          li
+            a(href='/projects') Project
+          li
+            a(href='/contact') Contact
+          li
+            a(href='/chat') Chat
+        .social-link
+          a(href='https://www.instagram.com/thakare_darshan09/', target='_blank')
+            i.fa-brands.fa-instagram
+          a(href='https://github.com/Drash09', target='_blank')
+            i.fa-brands.fa-github
+          a(href='https://www.youtube.com/channel/UCe7kNMnNHsF873YbAljRKlw', target='_blank')
+            i.fa-brands.fa-youtube
+      .lower-footer
+        img#footerimg(src='../static/images/D9-logo.png', alt='D9.com')
+        |  &nbsp;| Dnine&nbsp;
+        i.fa-regular.fa-copyright
+        | &nbsp;2022. All Rights Reserved

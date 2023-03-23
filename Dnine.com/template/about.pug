@@ -1,0 +1,269 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Dnine - About Me
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')
+    link(rel='stylesheet', href='../static/webtemplate.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=League+Gothic&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap', rel='stylesheet')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='stylesheet', href='../static/about.css')
+    style.
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  body
+    nav.navbar
+      .reflector1
+      .reflector2
+      .logo
+        img(src='../static/images/D9logo.png', alt='Dnine')
+      .navigation
+        ul.ulist
+          li.list
+            a(href='/')
+              span.icon
+                i.fa-solid.fa-house
+              span.text Home
+          li.list.active
+            a(href='/about')
+              span.icon
+                i.fa-solid.fa-user
+              span.text About
+          li.list
+            a(href='/projects')
+              span.icon
+                i.fa-solid.fa-puzzle-piece
+              span.text Projects
+          li.list
+            a(href='/contact')
+              span.icon
+                i.fa-solid.fa-envelope
+              span.text Contact
+          li.list
+            a(href='/chat')
+              span.icon
+                i.fa-solid.fa-comment
+              span.text Chat
+          .indicator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      .search
+        label(for='search')
+          i#sicon.fa-solid.fa-magnifying-glass(onclick='searchclick()')
+        input#search(type='text', name='search')
+    .content
+      .menu
+        .left-menu.mc
+        .right-menu.mc
+          .rheader
+            h1.color-h1 - I&apos;M DARSHAN THAKARE.
+            h1.norm-h1 &nbsp;&nbsp;CODER, DEVELOPER
+          .rpara
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam unde sed voluptatibus, nobis
+            | aliquid alias magni earum ipsum.
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eaque. Amet rerum, cupiditate sint
+            | numquam praesentium accusantium velit saepe nihil corporis quam illo, autem neque adipisci. Aperiam
+            | omnis vel consequatur doloribus dicta.
+            | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis commodi fugiat veritatis nobis rem
+            | nisi odio numquam laboriosam et. Esse, voluptatem! In sapiente a perferendis maxime amet libero
+            | similique numquam.
+          .scroll-btn
+            .atag.tg
+              a(href='#moreabout') MORE ABOUT ME
+            .icontag
+              h2
+                i.fa-solid.fa-arrow-right
+    // <hr>
+    #moreabout.more-about
+      .more-upper
+        .more-heading
+          h1 It&apos;s DARSH
+        .more-subtitle
+          | Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est fugiat soluta modi
+          | culpa architecto minima dignissimos excepturi, illo enim aut!
+        .more-content
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro quia qui
+          | exercitationem fuga nam doloribus libero unde aut, et commodi laboriosam mollitia vero dolorum ipsum
+          | minima
+          | iure aliquid!
+          | laborum alias iusto commodi, recusandae libero, ipsam adipisci
+          | explicabo natus accusamus asperiores id ex! Quod necessitatibus mollitia at cum nostrum. Voluptatibus
+          | quasi
+          | odio maxime obcaecati atque.
+        .more-content
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro quia qui
+          | exercitationem fuga nam doloribus libero unde aut, et commodi laboriosam mollitia vero dolorum ipsum
+          | minima
+          | iure aliquid! Repellat, lequatur nulla
+          | suscipit
+          | est? Fugiat qui doloremque magni earum, laborum alias iusto commodi, recusand
+          | explicabo natus accusamus asperiores id ex! Quod necessitatibus mollitia at cum nostrum. Voluptatibus
+          | quasi
+          | odio maxime obcaecati atque.
+        .more-content
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro quia qui
+          | exercitationem fuga nam doloribus libero unde aut, et commodi laboriosam mollitia vero dolorum ipsum
+          | .
+        img#naruto(src='../static/images/naruto.png', alt='')
+      .sub-heading
+        h2 Web &amp; Social presence
+        .sub-links
+          .btn.insta-
+            .btn-icon
+              i.fa-brands.fa-instagram
+            .btn-link
+              a(href='#instagram') Instagram
+          .btn.youtube-
+            .btn-icon
+              i.fa-brands.fa-youtube
+            .btn-link
+              a(href='#youtube')
+                | You
+                span Tube
+          .btn.git-
+            .btn-icon
+              i.fa-brands.fa-github
+            .btn-link
+              a(href='#github') GitHub
+          .btn.d9-
+            .btn-icon.d9
+              img(src='../static/images/D-9.png', alt='')
+            .btn-link
+              a(href='#d-9') Dnine.com
+    #youtube.youtube.sub-content
+      .chp.mainch
+        .ssh
+          h1
+            | You
+            span Tube
+        .sst Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eos.
+        idv.mmt
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem blanditiis magnam suscipit
+          | vel
+          | nam? Quia, soluta reprehenderit porro autem dolor laborum molestias minus tempore tempora laudantium.
+          | Maiores ratione impedit facere inventore. 
+          br
+          |Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dignissimos cupiditate libero
+          |nihil,
+          |dolore aspernatur expedita inventore doloribus temporibus minima deserunt at ar Lorem ipsum dolor sit
+          |amet
+          |consectetur adipisicing elit. Cumque, a totam. Itaque quaerat inventore aut repellat. Nesciunt sit harum
+          |ipsa! chitecto itaque eius quod, iure ipsum in soluta illum delectus.
+        img.img2(src='../static/images/youtube2.png', alt='youtube')
+        img.imgi.youimg(src='../static/images/youtube SS.png', alt='youtube')
+        .btn.youtube-.btn-site
+          .btn-icon
+            i.fa-brands.fa-youtube
+          .btn-link
+            a(href='https://www.youtube.com/channel/UCe7kNMnNHsF873YbAljRKlw')
+              | You
+              span Tube
+    #instagram.youtube.sub-content1
+      .chp1.mainch
+        .ssh
+          h1 Instagram
+        .sst Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eos.
+        idv.mmt
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem blanditiis magnam suscipit
+          | vel
+          | nam? Quia, soluta reprehenderit porro autem dolor laborum molestias minus tempore tempora laudantium.
+          | Maiores ratione impedit facere inventore. 
+          br
+          |Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dignissimos cupiditate libero
+          |nihil,
+          |dolore aspernatur expedita inventore doloribus temporibus minima deserunt at ar Lorem ipsum dolor sit
+          |amet
+          |consectetur adipisicing elit. Cumque, a totam. Itaque quaerat inventore aut repellat. Nesciunt sit harum
+          |ipsa! chitecto itaque eius quod, iure ipsum in soluta illum delectus.
+        img.img2(src='../static/images/instagram.png', alt='youtube')
+        img.imgi(src='../static/images/instagram SS.png', alt='youtube')
+        .btn.insta-.btn-site1
+          .btn-icon
+            i.fa-brands.fa-instagram
+          .btn-link
+            a(href='https://www.instagram.com/thakare_darshan09/') Instagram
+    #github.youtube.sub-content2
+      .chp2.mainch
+        .ssh
+          h1 GitHub
+        .sst Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eos.
+        idv.mmt
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem blanditiis magnam suscipit
+          | vel
+          | nam? Quia, soluta reprehenderit porro autem dolor laborum molestias minus tempore tempora laudantium.
+          | Maiores ratione impedit facere inventore. 
+          br
+          |Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dignissimos cupiditate libero
+          |nihil,
+        img.img2(src='../static/images/github.png', alt='youtube')
+        img.imgi.gitimg(src='../static/images/GitHub SS.png', alt='youtube')
+        .btn.git-.btn-site
+          .btn-icon
+            i.fa-brands.fa-github
+          .btn-link
+            a(href='https://github.com/Drash09') GitHub
+    #d-9.youtube.sub-content3
+      .chp3.mainch
+        .ssh
+          h1
+            d D
+            nine nine
+            | .com
+        .sst Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eos.
+        idv.mmt
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem blanditiis magnam
+          | suscipit
+          | vel
+          | nam? Quia, soluta reprehenderit porro autem dolor laborum molestias minus tempore
+          | amet
+          | consectetur adipisicing elit. Cumque, a totam. Itaque quaerat inventore aut repellat. Nesciunt sit
+          | harum
+          | ipsa! chitecto itaque eius quod, iure ipsum in soluta illum delectus.
+        img.img2(src='../static/images/D9-logo.png', alt='youtube')
+        img.imgi.d9img(src='../static/images/home page SS.png', alt='youtube')
+        .btn.d9-.btn-site1
+          .btn-icon.d9
+            img(src='../static/images/D-9.png', alt='')
+          .btn-link
+            a(href='/home.html') Dnine.com
+    .endcontent
+      .endh1
+        h1 How&apos;s your Experience
+      .endcon
+        | Lorem ipsum dolor ok then gihaui kd dj fffhfhry sit, amet consectetur adipisicing elit. Quia
+        | facere deleniti, quam sint nemo iusto eligendi ipsum recusandae atque . 
+        br
+        |Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, eaque. Lorem ipsum dolor, sit amet
+        |onsectetur adipisicing elit. Voluptate deserunt labore at sunt facilis impedit?
+    footer.footer
+      .upper-footer
+        .page-link
+          li
+            a(href='/') Home
+          li
+            a(href='/about') About
+          li
+            a(href='/projects') Project
+          li
+            a(href='/contact') Contact
+          li
+            a(href='/chat') Chat
+        .social-link
+          a(href='https://www.instagram.com/thakare_darshan09/', target='_blank')
+            i.fa-brands.fa-instagram
+          a(href='https://github.com/Drash09', target='_blank')
+            i.fa-brands.fa-github
+          a(href='https://www.youtube.com/channel/UCe7kNMnNHsF873YbAljRKlw', target='_blank')
+            i.fa-brands.fa-youtube
+      .lower-footer
+        img#footerimg(src='../static/images/D9-logo.png', alt='D9.com')
+        |  &nbsp;| Dnine&nbsp;
+        i.fa-regular.fa-copyright
+        | &nbsp;2022. All Rights Reserved
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')

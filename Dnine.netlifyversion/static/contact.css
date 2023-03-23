@@ -1,0 +1,361 @@
+.footer {
+    margin-top: 0px !important;
+}
+
+/* *************************************************************** */
+.land-page {
+    height: 88.5vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(./images/5124556.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 50px;
+
+}
+
+.left-side:before {
+    content: "";
+    position: absolute;
+    inset: -4.395em;
+    /* inset: -2em; */
+    background: linear-gradient(to bottom right,
+            rgba(24, 104, 124, 0.733), rgb(0, 255, 221));
+    filter: blur(9.5em);
+    z-index: -1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+:root {
+    ---maincolor: rgb(82, 203, 198);
+    ---subcolor: rgb(37 90 114);
+    ---multicolor: linear-gradient(217deg, rgb(82, 203, 198), rgba(0, 238, 255, 0.103) 70.71%),
+        linear-gradient(127deg, rgb(37 90 114), rgba(44, 226, 250, 0.459) 70.71%),
+        linear-gradient(336deg, rgb(37 90 114), rgba(24, 104, 100, 0.329) 70.71%);
+    ---multicolor2: linear-gradient(-217deg, rgb(82, 203, 198), rgba(0, 238, 255, 0.103) 70.71%),
+        linear-gradient(-127deg, rgb(37 90 114), rgba(44, 226, 250, 0.459) 70.71%),
+        linear-gradient(-336deg, rgb(37 90 114), rgba(24, 104, 100, 0.329) 70.71%);
+    ---insta: linear-gradient(to bottom right, rgb(255, 0, 212), rgb(238, 255, 0));
+
+}
+
+.left-side {
+    /* border: 2px solid red; */
+    width: 38%;
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.head>h1 {
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    color: var(---subcolor);
+}
+
+.sub-p {
+    color: var(---subcolor);
+    font-size: 1.4em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+.main-p {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px;
+    font-weight: 100;
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: var(---subcolor);
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    color: var(---maincolor);
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.btn>a {
+    color: var(---maincolor);
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.btn:hover {
+    background-color: var(---maincolor);
+    /* border: 0.5px solid var(---subcolor); */
+}
+
+.btn:hover {
+    color: var(---subcolor);
+}
+
+.btn:hover>a {
+    color: var(---subcolor);
+}
+
+/* ************************************************************************* */
+.entrence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.entrence>h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+    font-size: 3em;
+    color: var(---subcolor);
+}
+
+.entrence>h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    color: var(---subcolor);
+    font-size: 1em;
+    letter-spacing: 0.8px;
+}
+
+/* ************************************************************************************ */
+.main-c {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+    padding-top: 100px;
+    height: 90vh;
+    background-image: linear-gradient(to top, rgba(98, 203, 198, 0.692), rgb(196, 252, 249), white);
+    box-shadow: var(---subcolor) 0px 15px 1px 2px;
+
+}
+
+.sub-c {
+    border: 1px solid var(---maincolor);
+    border-radius: 10px;
+    border-bottom: 8px solid var(---maincolor);
+    border-top: 4px solid var(---maincolor);
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 27em;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.sub-c:hover {
+    border: 1px solid var(---subcolor);
+    border-bottom: 8px solid var(---subcolor);
+    border-top: 4px solid var(---subcolor);
+    position: relative;
+    bottom: 1.5em;
+    height: 30em;
+    width: 33%;
+}
+
+.sub-c:hover .para-c {
+    font-size: 1em;
+
+}
+
+.sub-c:hover .h1-c {
+    font-size: 2.3em;
+
+}
+
+.para-c {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: var(---subcolor);
+    font-size: 1em;
+    letter-spacing: 0.8px;
+    padding: 10px;
+}
+
+.para-cc {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: var(---subcolor);
+    font-size: 0.8em;
+    letter-spacing: 0.8px;
+    padding: 10px;
+}
+
+.h1-c {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 2em;
+    font-size: 2em;
+    color: var(---subcolor);
+}
+
+/* ****************************************************************** */
+.c-forms {
+    /* border: 2px solid red; */
+    height: 40em;
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+
+.left-form {
+    background-image: var(---multicolor);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+    padding: 50px;
+}
+
+.left-form>h1 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.right-form {
+    background-color: var(---subcolor);
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.rf-head {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+    font-size: 3em;
+    color: #fff;
+    margin: 10px 20px;
+    border-bottom: 2px solid var(---maincolor);
+    width: fit-content;
+}
+
+.rf-subtt {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 1em;
+    letter-spacing: 0.8px;
+}
+
+.li {
+    display: flex;
+    margin: 30px;
+}
+
+.text {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 1em;
+    letter-spacing: 0.8px;
+}
+
+.text>h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 1.1em;
+    letter-spacing: 0.8px;
+}
+
+.sub-li {
+    margin: 40px 0px 0px 20px;
+}
+
+.main-li {
+    margin-top: 3.5em;
+}
+
+/* *************************************************************** */
+input {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid var(---subcolor);
+    height: 3em;
+    font-size: 1em;
+    padding: 10px;
+    width: 28em;
+}
+
+textarea {
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid var(---subcolor);
+    width: 28em;
+    font-size: 1em;
+}
+
+.btnn {
+    background-color: var(---subcolor);
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    width: fit-content;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(1, 27, 29);
+    opacity: 1;
+    /* Firefox */
+}
+
+/* #que{
+    display: none;
+ } */
+@media screen and (max-width: 1320px) {
+    body {
+        display: none;
+    }
+}

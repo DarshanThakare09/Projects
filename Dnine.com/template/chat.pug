@@ -1,0 +1,84 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Chat live - friend circle
+    script(src='https://kit.fontawesome.com/bb4d795b78.js', crossorigin='anonymous')
+    link(rel='stylesheet', href='../static/chat.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='..//static/webtemplate.css')
+    script(src='../static/')
+  body
+    nav.navbar
+      .reflector1
+      .reflector2
+      .logo
+        img(src='../static/images/D9logo.png', alt='Dnine')
+      .navigation
+        ul.ulist
+          li.list
+            a(href='/')
+              span.icon
+                i.fa-solid.fa-house
+              span.text Home
+          li.list
+            a(href='/about')
+              span.icon
+                i.fa-solid.fa-user
+              span.text About
+          li.list
+            a(href='/projects')
+              span.icon
+                i.fa-solid.fa-puzzle-piece
+              span.text Projects
+          li.list
+            a(href='/contact')
+              span.icon
+                i.fa-solid.fa-envelope
+              span.text Contact
+          li.list.active
+            a(href='/chat')
+              span.icon
+                i.fa-solid.fa-comment
+              span.text Chat
+          .indicator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      .search
+        label(for='search')
+          i#sicon.fa-solid.fa-magnifying-glass(onclick='searchclick()')
+        input#search(type='text', name='search')
+    .container
+      .message.left hello bro kfnikn
+      .message.right hello bro
+      .message.right hello bro
+      .message.left hello bro
+      .message.right hello bro
+      .message.left hello bro
+    .send
+      form#send-container(action='#')
+        input#messageinp(type='text', name='messageinp')
+        button.btn(type='submit') Send
+    //
+      <footer class="footer">
+      <div class="upper-footer">
+      <div class="page-link">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">join Me</a></li>
+      </div>
+      <div class="social-link">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      </div>
+      <div class="lower-footer">
+      <img src="./images/D9logo.png" alt="D9.com" id="footerimg"> &nbsp| Dnine&nbsp<i
+      class="fa-regular fa-copyright"></i>&nbsp2022. All Rights Reserved
+      </div>
+      </footer>

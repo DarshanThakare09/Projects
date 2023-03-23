@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <title>Darsh Fittnes - Get harder to be strongr.</title>
+    <style>
+        body {
+            pointer-events: all;
+            font-family: 'Baloo Bhai', cursive;
+            height: 60cm;
+            background: url('https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        #head {
+            position: sticky;
+        }
+        
+        .header {
+            position: fixed;
+            background-image: url('https://t3.ftcdn.net/jpg/02/37/97/88/240_F_237978825_xQWsfEBO2PcvBjugN0cGaz9odTf0fOrS.jpg');
+            margin: -9px -8px 0px -7px;
+            padding: 20px 0px;
+            border-bottom: 2px solid rgba(214, 6, 6, 0.407);
+            font: arial;
+        }
+
+        .header:hover {
+            border-bottom: 4px solid rgb(255, 0, 0);
+        }
+
+        .left {
+            position: absolute;
+            border-radius: 90px;
+            left: 49px;
+            position: fixed;
+            top: 13px;
+            color: white;
+            /* border: 2px solid green; */
+        }
+
+        .mid {
+            display: block;
+            width: 68%;
+            margin: auto;
+            margin-left: 114px;
+            color: white;
+            /* border: 2px solid yellow; */
+        }
+
+        .right {
+            position: absolute;
+            right: 41px;
+            top: 37px;
+            display: inline-block;
+            width: auto;
+            color: white;
+            /* border: 2px solid blue; */
+        }
+
+        .navbar {
+            list-style: none;
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 4px 5px;
+            text-align: center;
+            margin: 0px 15px;
+
+        }
+
+        .navbar li a.active {
+            color: rgb(255, 0, 0);
+        }
+
+        .navbar li a:hover {
+            color: rgb(255, 0, 0);
+        }
+
+        .left img {
+            width: 69px;
+        }
+
+        #srch {
+            width: 230px;
+            height: 6mm;
+            text-align: left;
+        }
+
+        #srch:hover {
+            border-color: rgba(0, 0, 0, 0.815);
+            color: black;
+        }
+
+        .disclamer {
+            position: fixed;
+            font-size: 9px;
+            width: 32cm;
+            /* position: fixed; */
+            margin: 319px -9px 0px -10px;
+            padding: 0px 05px;
+            height: 152px;
+            background-color: rgba(255, 0, 0, 0.178);
+            color: rgba(255, 255, 255, 0.253);
+            border-top: red;
+            text-align: justify;
+        }
+
+        h2 {
+            display: inline-block;
+            width: 33%;
+            margin-left: 521px;
+            font: italic;
+        }
+
+        .disclamer:hover {
+            color: white;
+            border: 2px solid white;
+            background-color: rgba(214, 13, 13, 0.507);
+        }
+
+        .container h1 {
+            border-color: 2px solid white;
+            color: rgba(255, 255, 255, 0.63);
+            width: 249px;
+            display: block;
+            margin: auto;
+            margin-bottom: -28px;
+            font-size: 64px;
+        }
+
+        #imgg {
+            width: 166px;
+            display: block;
+            margin: auto;
+            border-radius: 1000px;
+        }
+
+        .slogan {
+            color: rgba(216, 8, 8, 0.918);
+            display: block;
+            margin: auto;
+            width: 197px;
+        }
+
+        .infobox {
+            /* border: 2px solid green; */
+            color: rgba(233, 16, 16, 0.938);
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .info1 {
+            /* border: 2px solid blue; */
+            float: left;
+            text-align: center;
+            margin-left: 35px;
+            width: 45%;
+            border-right: 2px solid rgba(226, 27, 27, 0.411);
+            height: 689px;
+            padding: 7px;
+        }
+
+        .info2 {
+            /* border: 2px solid yellow; */
+            height: 689px;
+            padding: 7px;
+            float: right;
+            width: 45%;
+            margin-right: 45px;
+            text-align: center;
+            border-left: 2px solid rgba(248, 0, 0, 0.397);
+        }
+
+        .text {
+            text-align: justify;
+            color: rgba(240, 248, 255, 0.76);
+        }
+        .container2 {
+            border: 2px solid white;
+            margin: 917px 0px 0px 206px;
+            padding: 67px;
+            width: 53%;
+            background-color: rgba(0, 0, 0, 0.507);
+            border-radius: 28px;
+        }
+        
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 18px;
+            border-radius: 37px;
+        }
+        
+        .container2 h1 {
+            text-align: center;
+        }
+        
+        .container2 button {
+            display: block;
+            width: 100%;
+            color: white;
+            background-color:rgba(255, 0, 0, 0.436);
+            border: 2px solid rgba(255, 0, 0, 0.259);
+            border-radius: 90px;
+            margin: 20px auto;
+            height:36px;
+        }
+        #di{
+            color: rgba(233, 17, 17, 0.581);
+        }
+        .sb{
+            color: white;
+            color: rgba(200, 24, 24, 0.745);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" id="head">
+        <div class="left">
+            <img src="img/wepik-hand-drawn-marco-personal-trainer-logo-2022814-74115.png" style="border-radius: 9000px;"
+                alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="img/wepik-hand-drawn-marco-personal-trainer-logo-2022814-74115.png">Fitness calculater</a>
+                </li>
+                <li><a href="img/wepik-hand-drawn-marco-personal-trainer-logo-2022814-74115.png">Traning</a></li>
+                <li><a href="img/wepik-hand-drawn-marco-personal-trainer-logo-2022814-74115.png">Acchivement</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" name="search" id="srch" placeholder="Search more : )">
+        </div>
+    </header>/
+    <footer class="disclamer">
+        <div>
+            <h2>Welcome to over Webpage!!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatum veritatis nesciunt
+                asperiores nobis quo, nihil tenetur labore consectetur, reiciendis quaerat quae pariatur assumenda quos
+                libero placeat a! Dolores mollitia minus sint, blanditiis repellat inventore consequatur distinctio
+                minima aliquid repellendus!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, rem.lo</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corrupti assumenda quo possimus dolorum
+                sunt eaque quidem alias harum natus fugit ipsum ad nobis voluptate dolor, repellat nam facilis aut hic
+                iusto. Debitis officia enim, ut quibusdam minus amet ipsa cupiditate quia voluptatibus aliquam quam non
+                minima aspernatur. Aliquid, nisi non. Harum reprehenderit quia exercitationem delectus nulla quo earum
+                quidem dolore, libero temporibus ad ipsum, illum similique? Velit off</p>
+        </div>
+    </footer>
+    <div class="container">
+        <img id="imgg" src="img/wepik-hand-drawn-marco-personal-trainer-logo-2022814-74115.png" alt="">
+        <h1>DARSH'S</h1>
+        <div class="slogan">
+            Get Harder ToBe Stronger.
+        </div>
+    </div>
+    <div class="infobox">
+        <div class="info1">
+            <h1>Workout Program's</h1>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt saepe ullam hic a ipsum
+                    doloremque, libero quod totam voluptatem repellat quam, repellendus excepturi nemo non, delectus
+                    sint sed nam dicta consequatur inventore enim mollitia autem unde consequuntur? Natus, deserunt
+                    repudiandae ratione ipsam delectus architecto consequatur tenetur! Fugit nisi consequuntur
+                    necessitatibus, placeat illum doloremque asperiores, incidunt minima invent</p>
+                <p>ore magni harum laborum qui non molestias, porro assumenda voluptatem provident? Fuga saepe porro
+                    natus amet ab? Quia asperiores ea, sequi voluptatibus omnis nobis in beatae, consequatur temporibus
+                    odit deserunt consequuntur similique fugiat quibusdam doloremque dolorem ex laborum, veritatis illo
+                    reiciendis. Nisi corrupti itaque autem alias! Natus impedit tempore nam totam maxime, eum
+                    repudiandae non tempora tenetur rerum qui nobis voluptates vel cumque, minus voluptatem itaque hic
+                </p>
+                <p>tempodit doatis, non quo. Accusantium iure ducimus ipsum voluptas repellendus necessitatibus
+                    doloremque corrupti itaque provident adipisci inventore at ab impedit porro sint cumque veritatis
+                    beatae, excepturi asperiores, sit aliquam! Deleniti facilis, expedita dignissimos ad neque aut vero
+                    id in minima autem, voluptatibus suscipit illo, nam labore maiores corrupti fugit nisi laudantium
+                    distinctio maxime?</p>
+            </div>
+        </div>
+        <div class="info2">
+            <h1>Weight lifting Compition's</h1>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt saepe ullam hic a ipsum
+                    doloremque, libero quod totam voluptatem repellat quam, repellendus excepturi nemo non, delectus
+                    sint sed nam dicta consequatur inventore enim mollitia autem unde consequuntur? Natus, deserunt
+                    repudiandae ratione ipsam delectus architecto consequatur tenetur! Fugit nisi consequuntur
+                    necessitatibus, placeat illum doloremque asperiores, incidunt minima invent</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quisquam repellendus praesentium ad
+                    suscipit nulla non voluptatem veritatis deleniti qui vero laudantium, magni totam cum . Doloribus
+                    expedita, debitis iusto optio unde quisquam facere? Ipsa quaerat mollitia veritatis sequi at
+                    sapiente maiores perferendis ea maxime corporis. Obcaecati, quaerat doloremque. Sunt, sequi
+                    suscipit! Eaque quia, nihil laudantium quibusdam eligendi sapiente nobis eveniet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia at repellat quas necessitatibus
+                    aspernatur repudiandae voluptate doloribus nostrum porro, quod nam ab libero illum unde cumque, sit
+                    in error laudantium? Velit rem omnis atque soluta, aspernatur, incidunt iure fugiat earum quibusdam
+                    molestiae eos qui, enim voluptatum? Corrupti consequemporibus. Laboriosam voluptates fuga molestiae
+                    exercitationem, minus delectus alias asperiores accusamus corporis itaque molestias voluptatum quae
+                    quod inventore incidunt iure, quidem minima praesentium veritatis architecto. Dignissimos?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut adipisci illum reiciendis esse hic
+                    aperiam, laudantium odit veniam, excepturi inventore maxime ex temporibus ea velit similique
+                    mollitia laborum consectetur distinctio non optio atque. Qui nihil voluptatibus minus magni commodi
+                    fugiat!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <h1 id="di">Join the best gym of Jalgoan now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name=""  class="sb" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""  class="sb" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""  class="sb" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""  class="sb" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""  class="sb" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""  class="sb" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

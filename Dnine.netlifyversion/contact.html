@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dnine - Contact</title>
+    <script src="https://kit.fontawesome.com/bb4d795b78.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/webtemplate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/bb4d795b78.js" crossorigin="anonymous"></script>
+    <script src="../static/contact.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="reflector1"></div>
+      <div class="reflector2"></div>
+      <div class="logo"><img src="../static/images/D9logo.png" alt="Dnine"></div>
+      <div class="navigation">
+        <ul class="ulist">
+          <li class="list"><a href="/"><span class="icon"><i class="fa-solid fa-house"></i></span><span class="text">Home</span></a></li>
+          <li class="list"><a href="/about"><span class="icon"><i class="fa-solid fa-user"></i></span><span class="text">About</span></a></li>
+          <li class="list"><a href="/projects"><span class="icon"><i class="fa-solid fa-puzzle-piece"></i></span><span class="text">Projects</span></a></li>
+          <li class="list active"><a href="/contact"><span class="icon"><i class="fa-solid fa-envelope"></i></span><span class="text">Contact</span></a></li>
+          <li class="list"><a href="/chat"><span class="icon"><i class="fa-solid fa-comment"></i></span><span class="text">Chat</span></a></li>
+          <div class="indicator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </ul>
+      </div>
+      <div class="search">
+        <label for="search"><i class="fa-solid fa-magnifying-glass" id="sicon" onclick="searchclick()"></i></label>
+        <input id="search" type="text" name="search">
+      </div>
+    </nav>
+    <div class="land-page">
+      <div class="left-side">
+        <div class="head">
+          <h1>CONTACT ME</h1>
+        </div>
+        <div class="sub-p">Lorem ipsum dolor sit amet consectur adipisicing.</div>
+        <div class="main-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, nostrum iure odit quis
+          alias hic atque neque saepe amet facere recusandae obcaecati adipisci eum quam iste dicta eaque harum
+          mollitia. Facere, quo.
+        </div>
+        <div class="btn"><a href="#contact">CONTACT</a></div>
+      </div>
+    </div>
+    <div class="entrence" id="contact">
+      <h1 id="h1">CONTACT ME</h1>
+      <h5>Have any Questions, I like te hear from you!.. </h5>
+    </div>
+    <div class="main-c">
+      <div class="sub-c">
+        <div class="h1-c">ASK ANY QUE ?</div>
+        <div class="para-c">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi nulla esse dolore
+          obcaecati consectetur sint eaque, recusandae beatae deserunt? Nostrum recusandae nulla, deleniti dolore
+          deserunt quidem omnis natus asperiores?
+        </div>
+        <btn class="btn" type="button" onclick="showframe1()">ASK QUESTIONS</btn>
+        <div class="para-cc">Scroll down after click for the form</div>
+      </div>
+      <div class="sub-c">
+        <div class="h1-c">CONTACT</div>
+        <div class="para-c">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi nulla esse dolore
+          obcaecati consectetur sint eaque, recusandae beatae deserunt? Nostrum recusandae nulla, deleniti dolore
+          deserunt quidem omnis natus asperiores?
+        </div>
+        <btn class="btn" onclick="showframe2()">CONTACT</btn>
+        <div class="para-cc">Scroll down after click for the form</div>
+      </div>
+      <div class="sub-c">
+        <div class="h1-c">GET IN TOUCH</div>
+        <div class="para-c">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi nulla esse dolore
+          obcaecati consectetur sint eaque, recusandae beatae deserunt? Nostrum recusandae nulla, deleniti dolore
+          deserunt quidem omnis natus asperiores?
+        </div>
+        <btn class="btn" onclick="showframe3()">GET IN TOUCH</btn>
+        <div class="para-cc">Scroll down after click for the form</div>
+      </div>
+    </div>
+    <div class="c-forms" id="que">
+      <div class="left-form">
+        <h1>Ask me any Question ?!</h1>
+        <form id="contact-me-form" action="/ask-me" method="post">
+          <div>
+            <input id="name" type="text" name="Name" placeholder="Name">
+          </div>
+          <div>
+            <input id="email" type="email" name="Email" placeholder="Email">
+          </div>
+          <div>
+            <input id="subject" type="text" name="Subject" placeholder="Subject">
+          </div>
+          <div>
+            <textarea id="question" name="Question" placeholder="Question" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input class="btnn" id="submit" type="submit" value="Send Question">
+          </div>
+        </form>
+      </div>
+      <div class="right-form">
+        <div class="main-li">
+          <div class="rf-head">Ask any Que?</div>
+          <div class="rf-subtt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum eius
+            aliquid blanditiis nam laboriosam placeat nemo quia soluta atque!
+          </div>
+        </div>
+        <div class="sub-li">
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="text">
+              <h2>Address :</h2> Sector 23, Sun Colony, Gali No 27
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="text">
+              <h2>Phone :</h2> +912974973792
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-paper-plane"></i></div>
+            <div class="text">
+              <h2>Email :</h2> darshanthakaree09@gmail.com
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="text">
+              <h2>Insta :</h2>thakare_darshan09
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-forms" id="con">
+      <div class="left-form">
+        <h1>Send me your Query !!</h1>
+        <form id="contact-me-form" action="/contact-me" method="post">
+          <div>
+            <input id="name" type="text" name="Name" placeholder="Name">
+          </div>
+          <div>
+            <input id="email" type="email" name="Email" placeholder="Email">
+          </div>
+          <div>
+            <input id="subject" type="text" name="Subject" placeholder="Subject">
+          </div>
+          <div>
+            <textarea id="message" name="Message" placeholder="Message" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input class="btnn" id="submit" type="submit" value="Send Message">
+          </div>
+        </form>
+      </div>
+      <div class="right-form">
+        <div class="main-li">
+          <div class="rf-head">Contact Me</div>
+          <div class="rf-subtt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum eius
+            aliquid blanditiis nam laboriosam placeat nemo quia soluta atque!
+          </div>
+        </div>
+        <div class="sub-li">
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="text">
+              <h2>Address :</h2> Sector 23, Sun Colony, Gali No 27
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="text">
+              <h2>Phone :</h2> +912974973792
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-paper-plane"></i></div>
+            <div class="text">
+              <h2>Email :</h2> darshanthakaree09@gmail.com
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="text">
+              <h2>Insta :</h2>thakare_darshan09
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-forms" id="touch">
+      <div class="left-form">
+        <h1>Get in Touch with Me ..</h1>
+        <form id="contact-me-form" action="/getintouchwith-me" method="post">
+          <div>
+            <input id="name" type="text" name="Name" placeholder="Name">
+          </div>
+          <div>
+            <input id="email" type="email" name="Email" placeholder="Email">
+          </div>
+          <div>
+            <input id="subject" type="text" name="Subject" placeholder="Subject">
+          </div>
+          <div>
+            <textarea id="message" name="Message" placeholder="Message" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input class="btnn" id="submit" type="submit" value="Send Message">
+          </div>
+        </form>
+      </div>
+      <div class="right-form">
+        <div class="main-li">
+          <div class="rf-head">Get in Touch</div>
+          <div class="rf-subtt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum eius
+            aliquid blanditiis nam laboriosam placeat nemo quia soluta atque!
+          </div>
+        </div>
+        <div class="sub-li">
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="text">
+              <h2>Address :</h2> Sector 23, Sun Colony, Gali No 27
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="text">
+              <h2>Phone :</h2> +912974973792
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-solid fa-paper-plane"></i></div>
+            <div class="text">
+              <h2>Email :</h2> darshanthakaree09@gmail.com
+            </div>
+          </div>
+          <div class="li">
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="text">
+              <h2>Insta :</h2>thakare_darshan09
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="upper-footer">
+        <div class="page-link">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Project</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/chat">Chat</a></li>
+        </div>
+        <div class="social-link"><a href="https://www.instagram.com/thakare_darshan09/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href="https://github.com/Drash09" target="_blank"><i class="fa-brands fa-github"></i></a><a href="https://www.youtube.com/channel/UCe7kNMnNHsF873YbAljRKlw" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+      </div>
+      <div class="lower-footer"><img id="footerimg" src="../static/images/D9-logo.png" alt="D9.com"> &nbsp;| Dnine&nbsp;<i class="fa-regular fa-copyright"></i>&nbsp;2022. All Rights Reserved</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,293 @@
+:root {
+    ---maincolor: rgb(82 203 198);
+    ---subcolor: rgb(37 90 114);
+    ---multicolor: linear-gradient(217deg, rgb(82, 203, 198), rgba(0, 238, 255, 0.103) 70.71%),
+        linear-gradient(127deg, rgb(37 90 114), rgba(44, 226, 250, 0.459) 70.71%),
+        linear-gradient(336deg, rgb(37 90 114), rgba(24, 104, 100, 0.329) 70.71%);
+    ---multicolor2: linear-gradient(-217deg, rgb(82, 203, 198), rgba(0, 238, 255, 0.103) 70.71%),
+        linear-gradient(-127deg, rgb(37 90 114), rgba(44, 226, 250, 0.459) 70.71%),
+        linear-gradient(-336deg, rgb(37 90 114), rgba(24, 104, 100, 0.329) 70.71%);
+    ---insta: linear-gradient(to bottom right, rgb(255, 0, 212), rgb(238, 255, 0));
+    ---gclrr: var(---maincolor);
+
+}
+
+.navbar {
+    outline: 11px solid var(---maincolor) !important;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.load-page {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 38em;
+    background-color: var(---maincolor);
+    border-bottom-left-radius: 280px;
+}
+
+.left-l {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.right-l {
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.right-l>img {
+    width: 38em;
+    height: 35em;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.sub-ti {
+    background-color: rgba(0, 0, 0, 0.068);
+    width: max-content;
+    padding: 1px 10px;
+    color: #fff;
+    font-family: Quicksand, sans-serif;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+}
+
+.heading-ti {
+    font-size: 4em;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    width: 88%;
+}
+
+.h-para {
+    font-family: Quicksand, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    width: 88%;
+}
+
+.scrollbtn {
+    background-color: var(---subcolor);
+    width: max-content;
+    padding: 7px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.scrollbtn:hover {
+    background-color: var(---subcolor);
+    opacity: 0.8;
+
+}
+
+.scrollbtn>a {
+    color: var(---maincolor);
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+/* **************************************************************************************** */
+.entrence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.entrence>h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+    font-size: 2em;
+    color: var(---subcolor);
+}
+
+.entrence>h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: var(---subcolor);
+}
+
+/* **************************************************************************************** */
+.project {
+    /* border: 2px solid red; */
+    padding: 40px;
+    border-radius: -5px;
+    margin: 100px;
+    display: flex;
+    height: 48em;
+    background-color: var(---maincolor);
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.project2 {
+    padding: 40px;
+    border-radius: -5px;
+    margin: 100px;
+    display: flex;
+    height: 48em;
+    background-color: var(---subcolor);
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    flex-direction: row-reverse;
+}
+
+.proimg>img {
+    width: 75%;
+}
+
+.proimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300em;
+    align-items: center;
+    position: relative;
+}
+
+.project .main-img {
+    position: absolute;
+    right: 50px;
+    /* left: 50px; */
+    z-index: 1;
+    /* height: 20em; */
+    width: 90% !important;
+    box-shadow: rgb(0, 0, 0) 0px 0px 102px -26px;
+}
+
+.project2 .main-img {
+    position: absolute;
+    /* right: 50px; */
+    left: 50px;
+    z-index: 1;
+    /* height: 20em; */
+    width: 90% !important;
+    box-shadow: rgb(0, 0, 0) 0px 0px 102px -26px;
+}
+
+.project .p-img1 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    opacity: 0.6;
+    box-shadow: rgb(0, 0, 0) 0px 0px 102px -26px;
+}
+
+.project .p-img {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    opacity: 0.6;
+    box-shadow: rgb(0, 0, 0) 0px 0px 102px -26px;
+}
+
+.project2 .p-img1 {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    opacity: 0.6;
+    box-shadow: rgb(0, 0, 0) 0px 0px 102px -26px;
+}
+
+.project2 .p-img {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    opacity: 0.6;
+    box-shadow: rgb(0, 0, 0) 0px 0px 102px -26px;
+}
+
+.procontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: var(---subcolor);
+    color: #fff;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.procontent2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: var(---subcolor);
+    color: #fff;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.p-head {
+    color: var(---maincolor);
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 2px solid var(---maincolor);
+    font-size: 2.7em;
+    letter-spacing: 2px;
+    width: max-content;
+}
+
+.p-subhead {
+    color: var(---maincolor);
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 2px solid var(---maincolor);
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    width: max-content;
+}
+
+.p-info {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.p-subinfo {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+/* ****************************************************************** */
+.new .proimg {
+    border: 2px solid var(---subcolor);
+    margin-right: 40px;
+    border-radius: 10px;
+    border-bottom-left-radius: 100px;
+    font-size: 3em;
+    color: #fff;
+}
+
+.new {
+    height: 20em;
+}
+
+.upper-footer {
+    box-shadow: var(---maincolor) 0px -20px 102px 16px;
+}
+
+@media screen and (max-width: 1320px) {
+    body {
+        display: none;
+    }
+}

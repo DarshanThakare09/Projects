@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "pug": "^3.0.2"
+  },
+  "name": "dnine.com",
+  "version": "1.0.0",
+  "description": "my first fully flegship project",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Dnine"
+  ],
+  "author": "Darsh",
+  "license": "ISC"
+}

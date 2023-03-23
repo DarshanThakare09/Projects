@@ -1,0 +1,98 @@
+:root {
+    ---maincolor: rgb(82, 203, 198);
+    ---subcolor: rgb(37 90 114);
+    ---multicolor: linear-gradient(217deg, rgb(82, 203, 198), rgba(0, 238, 255, 0.103) 70.71%),
+        linear-gradient(127deg, rgb(37 90 114), rgba(44, 226, 250, 0.459) 70.71%),
+        linear-gradient(336deg, rgb(37 90 114), rgba(24, 104, 100, 0.329) 70.71%);
+    ---multicolor2: linear-gradient(-217deg, rgb(82, 203, 198), rgba(0, 238, 255, 0.103) 70.71%),
+        linear-gradient(-127deg, rgb(37 90 114), rgba(44, 226, 250, 0.459) 70.71%),
+        linear-gradient(-336deg, rgb(37 90 114), rgba(24, 104, 100, 0.329) 70.71%);
+    ---insta: linear-gradient(to bottom right, rgb(255, 0, 212), rgb(238, 255, 0));
+    ---gclrr: rgba(255, 255, 255, 0) !important;
+
+}
+
+.navbar {
+    outline: 11px solid var(---gclrr) !important;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: linear-gradient(rgb(0 198 187), rgb(255, 255, 255));
+    height: 98.8vh;
+}
+
+.container {
+    /* background-color: red; */
+    /* margin-top: 35px; */
+    height: 84%;
+    padding: 15px 10px;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: rgb(37 90 114);
+    width: max-content;
+    padding: 5px 22px;
+    border-radius: 16px;
+    margin: 10px;
+    color: #fff;
+    max-width: 400px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    height: 4.9vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#messageinp {
+    color: rgb(37 90 114);
+    height: 39px;
+    width: 92.5vw;
+    border-radius: 18px;
+    margin: 2px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.1em;
+    background-color: rgb(82, 203, 198);
+    text-align: right
+}
+
+.btn {
+    color: white;
+    height: 39px;
+    min-width: 5.7vw;
+    border-radius: 18px;
+    margin: 1px;
+    background-color: rgb(37 90 114);
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-color: #fff;
+}
+
+.btn:hover {
+    background-color: rgb(82, 203, 198);
+    color: rgb(37 90 114);
+}
+
+.btn:active {
+    border: none;
+}
