@@ -2,7 +2,8 @@ html {
     margin: -0vh;
     padding: 0px;
 }
-body{
+
+body {
     background-image: url('../static/img/bgi.png');
     background-position: right -6vh;
     background-size: 110vh;
@@ -78,7 +79,7 @@ li a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 8vh;
     margin-left: 7vw;
-    
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -89,7 +90,8 @@ li a:hover {
     .para {
         width: 80vw;
     }
-    body{
+
+    body {
         background-image: url('../static/img/bgi.png');
         background-position: right 20vh;
         background-size: 40vh;

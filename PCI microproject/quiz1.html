@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <title>Quiz - 1</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>What is a full form of "OS" ?</h1>
+        <div class="box wrong">Operation Side</div>
+        <div class="box wrong">Operate Sim</div>
+        <div class="box correct">Operating System</div>
+        <div class="box wrong">On System</div>
+        <button class="btn"><a href="/quiz2.html" style="text-decoration: none; color: #FFF; letter-spacing: 1px;">NEXT</a></button>
+    </div>
+</body>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+    .container {
+        border: 7px solid #797EF6;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        /* height: 50vh; */
+        padding: 10px;
+        margin: 15px;
+        margin-top: 35%;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .btn{
+        border-radius: 10px;
+        background-color: #797EF6;
+        padding: 7px 10px;
+        border: none;
+    }
+    .box{
+        border: 2px solid #797EF6;
+        width: 80%;
+        margin: 15px 0px;
+        border-radius: 10px;
+        padding: 7px 10px;
+        font-weight: bolder;
+    }
+    .correct:hover{
+        color: rgb(31, 190, 31);
+        border: 3px solid rgb(31, 190, 31);
+    }
+    .wrong:hover{
+        color: red;
+        border: 3px solid red;
+    }
+</style>
+
+</html>
