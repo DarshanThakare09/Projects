@@ -121,5 +121,7 @@ int main()
 {
     hybrid_cal darsh;
     darsh.dual_cla();
+    darsh.display_cal_sim();
+    darsh.display_cal_sci();
     return 0;
 }
