@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Required Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/six"
+        android:roundIcon="@drawable/six"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB1axqjEo3cWgYbIL0nNNwq_t3Pdl43B4g" />
+
+        <!-- Activities -->
+        <activity android:name=".UserdataActivity" />
+        <activity android:name=".History" />
+        <activity android:name=".MyPin" />
+        <activity android:name=".About" />
+        <activity android:name=".FoodMap" />
+        <activity android:name=".Receive" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Logup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Donate" />
+        <activity android:name=".landingpage" />
+
+        <!-- Splash Screen (Launcher Activity) -->
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

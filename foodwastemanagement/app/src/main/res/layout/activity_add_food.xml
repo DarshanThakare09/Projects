@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText android:id="@+id/foodName" android:hint="Food Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/quantity" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/time" android:hint="Pickup Time" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/location" android:hint="Location" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/addBtn" android:text="Add Food" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
