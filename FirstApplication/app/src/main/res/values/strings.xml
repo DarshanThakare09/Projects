@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">First Application</string>
+    <string name="send_messgae">send</string>
+    <string name="receive_messgae">receive</string>
+    <string name="read_messgae">read</string>
+</resources>
